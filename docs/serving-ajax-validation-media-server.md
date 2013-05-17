@@ -2,10 +2,10 @@
 Serving Ajax Validation With Your Static Media Server
 =====================================================
 
-By default, if you use the template tag included with Ajax Validation, the 
-script will be placed inside HTML <script> tags and served up this way.  This is 
-usually fine for development, however for production it is reccomended you serve 
-Ajax Validation with your seperate static media server.
+    By default, if you use the template tag included with Ajax Validation, the 
+    script will be placed inside HTML <script> tags and served up this way.  This is 
+    usually fine for development, however for production it is reccomended you serve 
+    Ajax Validation with your seperate static media server.
 
 To do this you should copy the ``jquery-ajax-validation.js`` file from 
 ``ajax_validation/media/ajax_validation/js/`` and put it somewhere in the 
